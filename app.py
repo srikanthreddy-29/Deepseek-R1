@@ -1,5 +1,5 @@
-from langchain.prompts import ChatPromptTemplate # type: ignore
-from langchain_ollama import OllamaLLM # type: ignore
+from langchain.prompts import ChatPromptTemplate
+from langchain_ollama import OllamaLLM
 import streamlit as st
 
 st.title("My Chat Bot Using Deepseek-R1 Model")
